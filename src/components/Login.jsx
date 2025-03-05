@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from 'axios';
 import { useDispatch } from "react-redux";
-import { addUser } from "../utills/slices/UserSlice";
+import { addUser } from "../appStore/slices/UserSlice";
 import { useNavigate } from "react-router-dom";
 import { BaseUrl } from "../Utills/Constracts";
 
